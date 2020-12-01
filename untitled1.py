@@ -264,12 +264,12 @@ df
 
 #HTML Table
 htmll = df.to_html() 
-text_file = open("Company Table.html", "w") 
+text_file = open(r"C:\Users\Angshuman Bardhan\Desktop\Task1\Company Table.html", "w") 
 text_file.write(htmll) 
 text_file.close() 
 
 #Forming CSV File
-df.to_csv (r'Company Table.csv', index = False, header=True)
+df.to_csv (r'C:\Users\Angshuman Bardhan\Desktop\Task1\Company Table.csv', index = False, header=True)
 
 #Screenshot
 for x1 in range(len(comp)):
